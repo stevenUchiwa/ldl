@@ -1,0 +1,48 @@
+.acceuilcontainer{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.acceuilcontent{
+    width: 35vw;
+    height: auto;
+}
+.acc_first_p{
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.acc_second_p{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(204, 207, 45)
+}
+.acc_tree_p{
+    font-size: 1.3rem;
+}
+.containerIndex{
+    width: 50%;
+    height: auto;
+}
+.containerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerSecondBloc{
+    background-color: #a3a5a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alginCenterBox{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.imgcpt{
+    background-color: red;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}

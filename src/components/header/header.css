@@ -1,0 +1,20 @@
+.topbarimgcontainer{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../Assets/assets/fond02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.firtTexth1{
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.textJeune{
+    color:rgb(204, 207, 45) !important
+}

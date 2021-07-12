@@ -1,0 +1,82 @@
+.footerContainer{
+    width: 100%;
+    height: 25vh;
+    margin-top: 1rem;
+}
+.imgFooterLogo{
+    width: 20rem;
+    height: 10rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.secondFooterContainer{
+    display: flex;
+    justify-content: space-around;
+   width: 100%;
+   height: 100%;   
+}
+.nosPagesFooter{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+.ulnavigationFooter{
+    padding: 0;
+    width: 8vw;
+}
+.ulnavigationFooter > li{
+    list-style: none;
+}
+.ulnavigationFooter > li > a{
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+    font-size: 1.2rem;
+}
+.navigationFooterContainer{
+    display: flex;
+}
+.navLiNotP{
+    margin-top: 1rem;
+}
+.contactFooter{
+    margin: 0;
+    height: auto;
+}
+.contactFooter p{
+    margin: 0;
+    text-align:left;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: rgb(61, 58, 58);
+}
+.contactFooter p:first-child{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    color: black;
+}
+.lastBlockFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e7e3;
+    width: 100%;
+    height: 7vh;
+}
+@media screen and (max-width: 1024px) {
+
+     .secondFooterContainer{
+         height: auto !important;
+     }
+     .imgFooterLogo{
+         width: 10rem;
+         height: 5rem;
+     }
+     .ulnavigationFooter{
+        padding: 0;
+        width: 15vw !important;
+    }
+
+    
+}

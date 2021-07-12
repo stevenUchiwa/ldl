@@ -1,0 +1,102 @@
+/* @font-face {
+    font-family: topbarfont;
+    src: url('../../Assets/fonts/MountainsofChristmas-Bold.ttf');
+}
+.cusfonttop{
+    font-family: topbarfont;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.topbarimgcontainer{
+   width: 100%;
+   height: 50vh;
+   background-color: beige;
+   margin-top: 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.texttopbarcontainer{
+    width: 85vw;
+    display: flex;
+    justify-content: right;
+}
+.firtTexth1{
+    margin-top: 0;
+    text-align: center;
+}
+.navigationbar{
+    display: flex;
+    justify-content: center;
+}
+.ulnavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+}
+.ulnavigation > li {
+    list-style: none;
+}
+.ulnavigation > li > a {
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.navtextblack{
+    color: rgb(48, 48,47);
+}
+.navtextgreen{
+    color: rgb(41, 163, 98);
+}
+.navtextyellow{
+    color:rgb(204, 207, 45)
+}
+.ulnavigation > li > a > span{
+    display: block;
+}
+.entretein_dis{
+    text-align: center;
+    margin-top: 0;
+} */
+.ulnavigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw; 
+}
+.ulnavigation > li > a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #6d6e70;
+    
+}
+.ulnavigation > li > a:hover{
+    color: #e8eb46;
+}
+.classActiveTop {
+    color: black !important;
+}
+
+.ulnavigation{
+    margin: 0;
+}
+.humberIconTopbar{
+    color: rgb(128, 123, 123);
+}
+.btnIconWarper{
+    padding: 0 !important;
+    display: none !important;
+}
+@media screen and (max-width: 1024px){
+    .navigationbar{
+        display: none;
+    }
+    .btnIconWarper{
+        display: block !important;
+        padding: 0 !important;
+    }
+}
