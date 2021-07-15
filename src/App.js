@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import Myrouter from './route/Myrouter';
-import Header from './components/header/header';
 import './App.css';
 import Footer from './components/footer/footer';
 

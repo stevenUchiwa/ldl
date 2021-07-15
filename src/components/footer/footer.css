@@ -80,3 +80,42 @@
 
     
 }
+@media screen and (max-width: 600px) {
+
+    .secondFooterContainer{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .navigationFooterContainer{
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+    } 
+    .ulnavigationFooter{
+        padding: 0;
+        width: 30vw !important;
+    }
+    .ulnavigationFooter:nth-child(2){
+        text-align: right;
+    }
+    .nosPagesFooter{
+        text-align: center;
+    }
+    .lastBlockFooter{
+        margin-top: 0.7rem;
+    }
+    .ulnavigationFooter > li > a {
+        font-size: 0.9rem;
+    }
+    .contactFooter p:nth-child(2){
+        font-size: 1rem !important;
+    }
+    .contactFooter p:nth-child(1){
+        font-size: 1.5rem !important;
+    }
+    .nosPagesFooter{
+        font-size: 1.5rem !important;
+    }
+}

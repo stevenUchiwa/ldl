@@ -46,3 +46,8 @@
     margin-bottom: 2rem;
     border-radius: 0.5rem;
 }
+@media screen and (max-width: 600px) {
+    .containerIndex{
+        width: 85% !important;
+    }
+}

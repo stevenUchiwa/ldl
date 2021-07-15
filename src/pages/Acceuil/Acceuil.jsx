@@ -7,15 +7,6 @@ import Header from '../../components/header/header'
 const Acceuil = () => {
     const classes = useStyles();
     return(
-        // <div className="acceuilcontainer">
-        //      <section className="acceuilcontent">
-        //          <p className="acc_first_p">Votre contact LIDL</p>
-        //          <p className="acc_second_p">Mme Laingo RAKOTOMALALA</p>
-        //          <p className="acc_tree_p">Employée Polyvalente</p>
-        //          <p className="acc_tree_p">DR " Le Coundray Monteaux "</p>
-        //          <p className="acc_tree_p">06.45.22.00.00</p>
-        //      </section>
-        // </div>
         <>
         <Header pgIndex={0} />
         <div className='containerBox'>
@@ -24,7 +15,7 @@ const Acceuil = () => {
             Le syndicat ACTION est un syndicat libre et indépendant qui défend les salariés de la société LIDL.
             </Typography>
             <Typography className={classes.pgSize} variant="subtitle1" gutterBottom>
-            Nous défendons tous les salariés, et en particulier, les salariés victimes d’accident du travail et de harcèlement moral. Nous assistons également les salariés à l’occasion de leur entretien disciplinaire ou de leur entretien préalable au licenciement.
+            Nous défendons tous les salariés, et en particulier, les salariés victimes d’accident du travail et de harcèlement moral. Nous assistons également les salariés à l’occasion de leur entretien disciplinaire ou de leur entretien préalable au licenciement. On peut donner des conseils juridiques.
             </Typography>
             </section>
             <section className='containerSecondBloc'>

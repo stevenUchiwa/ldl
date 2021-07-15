@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
+  Route
 } from "react-router-dom";
 import Acceuil from '../pages/Acceuil/Acceuil';
 import Adheres from '../pages/Adheres/Adheres';

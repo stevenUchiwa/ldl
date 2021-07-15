@@ -13,7 +13,7 @@ const Footer = () => {
           Nos pages
         </p>
         <section className="navigationFooterContainer">
-        <ul className='ulnavigationFooter'>
+              <ul className='ulnavigationFooter'>
                   <li>
                       <a href="/">Accueil</a>
                   </li>

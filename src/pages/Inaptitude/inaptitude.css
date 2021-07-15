@@ -40,4 +40,9 @@
     padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
+@media screen and (max-width: 600px) {
+    .containerIndex{
+        width: 85% !important;
+    }
+}
 

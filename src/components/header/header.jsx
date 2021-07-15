@@ -10,7 +10,7 @@ const Header = ({pgIndex}) => {
           <Topbar pgIndex={pgIndex}/>
           <div className='topbarimgcontainer'>
                <section className='texttopbarcontainer'>
-                 <p className='firtTexth1 cusfonttop'>Syndicat<br/>des<br/>Irréductibles Lidl-ois</p>
+                 <p className='firtTexth1 cusfonttop'>Votre nouveau Syndicat<br/><span className="textJauneAction">Action</span><br/><span className="textNoireAction">Syndicat des Irréductibles lidl-ois</span></p>
                </section>
             </div>
       </>

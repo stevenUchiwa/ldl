@@ -1,5 +1,5 @@
 .topbarimgcontainer{
-    height: 70vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,13 +8,52 @@
     background-size: cover;
     
 }
+
+.textJauneAction{
+    color: #ffef0f !important;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.textNoireAction{
+    color:#0c14f5 !important;
+    font-weight: bolder;
+    font-size: 3rem;
+}
 .firtTexth1{
-    text-align: center;
+    text-align: left;
     margin-top: 0;
     color: white;
-    font-weight: 700;
-    font-size: 5rem;
+    font-weight: 900;
+    font-size: 2.3rem;
+    vertical-align:middle;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 .textJeune{
     color:rgb(204, 207, 45) !important
+}
+@media screen and (max-width: 1024px) {
+    .firtTexth1{
+        font-size: 1.5rem;
+    }
+    .textJauneAction{
+        font-size: 2rem;
+    }
+    .textNoireAction{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .textNoireAction{
+        font-size: 1.2rem !important;
+        font-weight:bolder;
+    }
+    .firtTexth1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .textJauneAction{
+        font-size: 1.2rem !important;
+        font-weight:bolder;
+    }
 }

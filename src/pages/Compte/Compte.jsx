@@ -17,7 +17,7 @@ const Compte = () => {
             <Typography variant="subtitle1" gutterBottom className={classes.pgSize}>
             Le syndicat ACTION publie ses comptes annuels conformément aux obligations de transparence financière.
             </Typography>
-            <img src={Cpt} alt="image compte" className='imgcpt'/>
+            <img src={Cpt} alt="imagecompte" className='imgcpt'/>
             </section>
             </div>
             <section className='containerSecondBloc'>

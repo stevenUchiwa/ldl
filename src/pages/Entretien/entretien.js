@@ -6,13 +6,18 @@ const useStyles = makeStyles((theme) =>
     pgSize:{
         fontSize: '2rem',
         color: '#36383b',
-        marginTop:'3rem'
+        marginTop:'3rem',
+        [theme.breakpoints.down('md')]:{
+          fontSize: '1rem'
+        }
     },
     pgSize02:{
       fontSize: '2rem',
-      color: '#36383b',
       marginTop:'3rem',
-      color: '#f2f4f7'
+      color: '#f2f4f7',
+      [theme.breakpoints.down('md')]:{
+        fontSize: '1rem'
+      }
     }
    
   }),
