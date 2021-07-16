@@ -28,7 +28,7 @@ const Entretien = () => {
             <section className='containerSecondBloc'>
             <section className='containerIndex alginCenterBox'>
             <Typography className={classes.pgSize02} variant="subtitle1" gutterBottom>
-            Qui contacter pour être assisté ? Madame Laingo RAKOTOMALALA 06.06.06.06.06
+            Qui contacter pour être assisté ? Madame Laingo RAKOTOMALALA 06.66.89.49.43
             </Typography>
             </section>
             </section>

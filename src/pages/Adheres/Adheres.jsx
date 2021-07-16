@@ -32,8 +32,8 @@ const Adheres = () => {
              En 2021, le montant de la cotisation annuelle est fixé à :
             </Typography>
             <ul className="listeAdhere">
-                <li>– 60 euros pour tous les salariés (hors étudiant)</li>
-                <li>– 20 euros pour les étudiants</li>
+                <li>60 euros pour tous les salariés (hors étudiant)</li>
+                <li>20 euros pour les étudiants</li>
             </ul>
             </section>
             </section>

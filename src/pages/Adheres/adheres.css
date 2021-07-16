@@ -43,7 +43,7 @@
 .listeAdhere > li{
     color: aliceblue;
     font-size: 1.5rem;
-    list-style: none;
+    list-style:disc;
     padding-left: 6rem;
 }
 .listeAdhere > li:last-child{

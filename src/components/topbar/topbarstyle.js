@@ -1,6 +1,5 @@
 import { createStyles, makeStyles } from '@material-ui/core/styles';
-import Test02 from '../../Assets/assets/logoPrime.png';
-import banner from '../../Assets/assets/banner02.jpg'
+import banner from '../../Assets/assets/banner.jpg'
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -10,13 +9,14 @@ const useStyles = makeStyles((theme) =>
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundImage: `url(${Test02}), url(${banner})`,
-      backgroundRepeat: 'no-repeat, no-repeat',
-      backgroundSize: '45vw, cover',
-      backgroundPosition: 'center top, center',
-      height: '70vh',
+      backgroundImage: `url(${banner})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'contain',
+      backgroundPosition: 'center top',
+      height: '80vh',
       [theme.breakpoints.down('md')]:{
-        backgroundSize: 'contain, cover',
+        backgroundSize: 'contain',
+        height: '65vh',
       }
     },
     imgLogo: {
