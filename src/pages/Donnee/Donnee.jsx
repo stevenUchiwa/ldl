@@ -13,8 +13,11 @@ const Donnee = () =>{
             <Typography variant="subtitle1" gutterBottom className={classes.pgSize}>
             Dans le cadre de son activité, le syndicat ACTION collecte et traite les données personnelles de ses adhérents dans le respect de la règlementation RGPD.
             </Typography>
-            <Typography variant="subtitle1" gutterBottom className={classes.pgSize}>
-            Les données collectées Au moment de l’adhésion, le syndicat ACTION collecte les données personnelles des adhérents suivantes : les noms, prénoms, adresse électronique, adresse postale, numéro de téléphone, le statut du salarié (étudiant ou non), les coordonnées bancaires, et sa signature.
+            <Typography variant="h4" gutterBottom className={classes.pageSubTitle} align="justify">
+            Les données collectées
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom className={classes.pgSizeSubtitle}>
+            Au moment de l’adhésion, le syndicat ACTION collecte les données personnelles des adhérents suivantes : les noms, prénoms, adresse électronique, adresse postale, numéro de téléphone, le statut du salarié (étudiant ou non), les coordonnées bancaires, et sa signature.
             </Typography>
             <Typography variant="h4" gutterBottom className={classes.pageSubTitle} align="justify">
             Le traitement des données collectées

@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 600px) {
     .textNoireAction{
-        font-size: 1.2rem !important;
+        font-size: 1.3rem !important;
         font-weight:bolder;
     }
     .firtTexth1{
@@ -63,7 +63,7 @@
         font-weight:bolder;
     }
     .topbarimgcontainer{
-        background-size: 32vw,cover;
-        background-position:  50% 25%, left top;
+        background-size: 43vw,cover;
+        background-position:  50% 25%, right center;
     }
 }
